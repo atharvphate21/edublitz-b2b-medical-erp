@@ -8,7 +8,7 @@ spring:
     name: user-service
   data:
     mongodb:
-      uri: ${MONGODB_URI:}
+      uri: ${MONGODB_URI:mongodb+srv://project:project@cluster0.h3xwo4y.mongodb.net/users_db?appName=Cluster0}
       database: users_db
   jackson:
     default-property-inclusion: non_null
