@@ -38,7 +38,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: api.edublitzb2berp.online
+    - host: api.atharvphate.online
       http:
         paths:
           - path: /api/v1/auth
